@@ -1,0 +1,14 @@
+[project]
+name = "solid-crud-client"
+version = "0.1.0"
+description = "Python CRUD client for Solid Pods (e.g., solidcommunity.net)"
+authors = [{name="Your Name"}]
+dependencies = [
+    "requests",
+    "requests-oauthlib",
+    "rdflib"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
